@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container {
+    height: 500px;
+    width: 400px;
+    margin-top: 150px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#display {
+    background-color: grey;
+    height: 100px;
+    margin: 5px;
+    text-align: end;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+#buttons {
+    background-color: gray;
+    flex: 1;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+button {
+    width: 75px;
+    height: 85px;
+    box-sizing: border-box;
+    flex: 1 1 auto;
+}
+
+#clear {
+    width: 155px;
+}
