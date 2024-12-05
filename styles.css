@@ -1,10 +1,14 @@
+@font-face {
+    font-family: CalcFont;
+    src: url(digital-7.ttf);
+}
 body {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #container {
-    height: 500px;
+    height: 600px;
     width: 400px;
     margin-top: 150px;
     background-color: black;
@@ -17,13 +21,13 @@ body {
     background-color: grey;
     height: 100px;
     margin: 5px;
+    font-family: CalcFont;
     text-align: end;
     font-size: 50px;
     margin-top: 20px;
 }
 
 #buttons {
-    background-color: gray;
     flex: 1;
     margin: 5px;
     display: flex;
@@ -32,12 +36,32 @@ body {
 }
 
 button {
-    width: 75px;
-    height: 85px;
+    width: 80px;
+    height: 89px;
     box-sizing: border-box;
     flex: 1 1 auto;
 }
 
-#clear {
-    width: 155px;
+.op {
+    background-color: blue;
+    font-weight: 700;
+    font-size: large;
+}
+
+.num {
+    background-color: rgb(214, 226, 43);
+    font-weight: 700;
+    font-size: large;
+}
+
+.func {
+    background-color: orange;
+    font-weight: 700;
+    font-size: large;
+}
+
+#point {
+    background-color: rgb(214, 226, 43);
+    font-weight: 700;
+    font-size: large;
 }
