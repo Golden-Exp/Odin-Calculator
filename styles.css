@@ -5,12 +5,11 @@
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 #container {
     height: 600px;
     width: 400px;
-    margin-top: 150px;
+    margin-top: 100px;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -19,12 +18,23 @@ body {
 
 #display {
     background-color: grey;
-    height: 100px;
-    margin: 5px;
+    height: 70px;
     font-family: CalcFont;
-    text-align: end;
-    font-size: 50px;
-    margin-top: 20px;
+    text-align: right;
+    font-size: 70px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#op_disp {
+    background-color: grey;
+    height: 30px;
+    font-family: CalcFont;
+    text-align: right;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    font-size: 30px;
 }
 
 #buttons {
